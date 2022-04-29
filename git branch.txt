@@ -1,0 +1,37 @@
+Membuat branch dengan git branch <nama>
+git branch muhammad
+git branch saad
+saat ketik git branch maka tampil
+$ git branch
+* master
+  muhammad
+  saad
+head atau branch aktif di master
+untuk menampilkan versi network dengan
+$ git log --all --decorate --oneline --graph
+* b76341a (HEAD -> master, saad, muhammad) menambah file style.css dan midif index.html
+* 5f49e24 menambahkan file index.html
+karena tiap kali menulis banyak kata bisa disingkat dengan alias
+$ alias graph="git log --all --decorate --oneline --graph"
+$ graph
+* b76341a (HEAD -> master, saad, muhammad) menambah file style.css dan midif index.html
+* 5f49e24 menambahkan file index.html
+untuk pindah branch dengan git checkout <namabranch>
+git checkout muhammad
+$ git checkout muhammad
+Switched to branch 'muhammad'
+$ graph
+* b76341a (HEAD -> muhammad, saad, master) menambah file style.css dan midif index.html
+* 5f49e24 menambahkan file index.html
+untuk melakukan merge
+head ada posisi master
+dan proses merge dengan git merge <nama_branch>
+git merge muhammad
+untuk mengetahui branch mana yang telah dimerger
+git branch --merged
+menghapus branch
+git branch -d <nama_branch>
+git branch -d muhammad
+menghapus branch tampa peduli sudah dimerge atau belum dengan git branch -D <nama_branch>
+git branch -D saad
+
