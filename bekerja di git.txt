@@ -30,6 +30,12 @@ saat pertama kali membuat git commit
 perlu inisialisasi identitas
 $ git config --global user.email "husniorbek@gmail.com"
 $ git config --global user.name SahabatWeb
+Saat melakukan commit
+$ git commit -m "menambahkan file index.html"
+maka muncul 
+[master (root-commit) 5f49e24] menambahkan file index.html
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
 
 
 
