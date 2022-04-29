@@ -49,7 +49,7 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 tampak saat git status ada index.html termodifikasi dan ada style.css 
 dengan 
-git . maka semuanya akan disimpan di staging area
+git add . maka semuanya akan disimpan di staging area
  
 
 
