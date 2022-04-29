@@ -1,0 +1,2 @@
+Saat orang lain punya repository di github dan kita ingin mengkloningnya ini disebut fork.
+Dan github mencatat proses pengkloningan tersebut.
