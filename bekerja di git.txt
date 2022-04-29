@@ -50,6 +50,16 @@ no changes added to commit (use "git add" and/or "git commit -a")
 tampak saat git status ada index.html termodifikasi dan ada style.css 
 dengan 
 git add . maka semuanya akan disimpan di staging area
+git log untuk mengetahui history commit yang telah kita lakukan
+commit b76341aedb08db33996963fec14de654414853d3 (HEAD -> master)
+Author: SahabatWeb <husniorbek@gmail.com>
+Date:   Fri Apr 29 21:05:41 2022 +0700
+    menambah file style.css dan midif index.html
+commit 5f49e24e032f776f8e967326bd83876f32f83518
+Author: SahabatWeb <husniorbek@gmail.com>
+Date:   Fri Apr 29 20:47:43 2022 +0700
+    menambahkan file index.html
+
  
 
 
