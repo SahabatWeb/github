@@ -36,6 +36,22 @@ maka muncul
 [master (root-commit) 5f49e24] menambahkan file index.html
  1 file changed, 12 insertions(+)
  create mode 100644 index.html
+ Saat kita buat file baru style.css dan melink dengan index.html
+ $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+no changes added to commit (use "git add" and/or "git commit -a")
+tampak saat git status ada index.html termodifikasi dan ada style.css 
+dengan 
+git . maka semuanya akan disimpan di staging area
+ 
+
 
 
 
