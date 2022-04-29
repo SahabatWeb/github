@@ -70,6 +70,8 @@ restore file terhapus
 lalu kita ingin mengembalikan file terhapus dengan
 git checkout <5 digit hash> -- <namafile>
 git checkout b7634 -- style.css
+maka style.css ditaruh di staging area perlu commit
+git commit -m "restore style.css"
 
 
 
