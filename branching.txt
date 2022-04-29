@@ -1,3 +1,4 @@
 Branch atau branching adalah pembuatan jalur baru sebagai jalur commit experimental
 Tujuannya
 Membuat snapshot tanpa mengganggu jalur utama/ Master Branch
+Proses saat ada dokumen yang konflik saat merge maka owner master melakukan resolve conflict
