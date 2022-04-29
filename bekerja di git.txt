@@ -59,6 +59,20 @@ commit 5f49e24e032f776f8e967326bd83876f32f83518
 Author: SahabatWeb <husniorbek@gmail.com>
 Date:   Fri Apr 29 20:47:43 2022 +0700
     menambahkan file index.html
+untuk mengetahui history commit file tertentu
+git log -- style.css
+commit b76341aedb08db33996963fec14de654414853d3 (HEAD -> master)
+Author: SahabatWeb <husniorbek@gmail.com>
+Date:   Fri Apr 29 21:05:41 2022 +0700
+    menambah file style.css dan midif index.html
+saat kita menghapus file mis style.css
+restore file terhapus
+lalu kita ingin mengembalikan file terhapus dengan
+git checkout <5 digit hash> -- <namafile>
+git checkout b7634 -- style.css
+
+
+
 
  
 
