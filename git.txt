@@ -1,0 +1,11 @@
+perintah git bash
+clear utk hapus layar
+git semacam help
+git --version veris git
+pwd : mengetahui kita sedang didirectory apa
+ada 3 area repo git
+working tree : area tempat repository di local
+staging area : memberi tahu git , perubahan yang telah dilakukan dengan command git add
+History : saat kita telah melakukan commit dengan git commit
+staging area dan history tersimpan pada folder .git
+
