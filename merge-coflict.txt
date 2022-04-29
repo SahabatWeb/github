@@ -1,0 +1,3 @@
+saat modified sebuah dokumen bisa lngsung commit dengan git commit -am "deskripsi"
+untuk kembali ke kondisi saat comit terdahulu
+get checkout <7digit hash >
