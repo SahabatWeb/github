@@ -1,0 +1,14 @@
+Perbedaan Git dan Github
+Git merupakan version Control System berupa sistem yang mengelola perubahan dokumen.
+GIT biasanya terletak di local komputer dan GITHUB berupa cloud yang fungsinya sebagaimana git.
+Istilah khas git
+Tempat menyimpan file di it/github disebut REPOSITORY/REPO
+Riwayat/histori perubahan disimpan dengan perintah COMMIT
+BRANCH istilah saat pada versi tertentu dokumen membuat bbrapa versi berbeda pada versi selanjutnya (2)
+1--2-+--3A
+     +--3B 
+MERGE istilah saat pada beberapa dokumen di versi tertentu ingin dilebur menjadi 1  (4)  
+1--2-+--3A---+4--
+     +--3B---+
+PUSH proses pengkloningan dari local git ke remote github
+PULL proses pengkloningan dari remote github ke local git
