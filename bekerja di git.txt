@@ -1,0 +1,39 @@
+perintah di git bash
+ls semacam dir 
+cd pindah directory spt cd
+langkah buat repository
+1. buat folder untuk repository dengan windows exploler di desktop mis git-repo
+2. cd git-repo
+3. git init menjadikan folder git-repo sebagai repository
+maka ada tampilan Sahabat Web@SahabatWeb-PC MINGW32 ~/desktop/git-repo (master)
+maka secara otomatis tersimpan di git-repo subfolder bernama .git
+saat kita membuat file di repo mis index.html
+bisa kita tampilkan status repository dengan git status
+$ git status
+On branch master
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+Pada branch mater terdapat file index.html yang belum melakukan commit
+agar bisa dilakukan commit, file index.html harus tersimpan di staging area dengan cara
+git add index.html
+saat git status muncul
+$ git status
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+ada 1 file di branch master yang siap dicommit
+saat pertama kali membuat git commit 
+perlu inisialisasi identitas
+$ git config --global user.email "husniorbek@gmail.com"
+$ git config --global user.name SahabatWeb
+
+
+
+
+
+
+
