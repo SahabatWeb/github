@@ -12,3 +12,4 @@ MERGE istilah saat pada beberapa dokumen di versi tertentu ingin dilebur menjadi
      +--3B---+
 PUSH proses pengkloningan dari local git ke remote github
 PULL proses pengkloningan dari remote github ke local git
+Proses Registrasi github di http://github.com sangat mudah
